@@ -1,0 +1,6 @@
+bob	Cleartext-Password := "test"
+
+tknv	Cleartext-Password := "symbol123"
+       Service-Type = Administrative-User,
+       Filter-Id := "Entrasys:mgmt=su:",
+       Filter-Id += "Entrasys:version=1:mgmt=su:"
